@@ -25,7 +25,6 @@ body{
     padding: 10px 0 0 0;
     width: 1300px;
     display: flex;
-    justify-content: space-between;
     gap: 2rem;
     align-items: center;
     border-bottom-style: groove;
@@ -44,8 +43,14 @@ body{
     gap: 1rem;
     
 }
-.list_stil{
-   
+.check_list{
+   min-height: 80px;
+   align-items: center;
+   display: flex;
+}
+.check_list:hover{
+    border-bottom-style: groove;
+    border-bottom-color: blue;
 }
 a{
     text-decoration: none;
